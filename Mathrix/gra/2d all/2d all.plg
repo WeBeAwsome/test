@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 2d all - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\exam\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/2d all.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2009242009\VISUAL C++\2d all\2d.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\exam\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "C:\DOCUME~1\exam\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/2d all.pdb" /debug /machine:I386 /out:"Debug/2d all.exe" /pdbtype:sept 
+".\Debug\2d.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\exam\LOCALS~1\Temp\RSP1E.tmp"
+<h3>Output Window</h3>
+Compiling...
+2d.cpp
+D:\2009242009\VISUAL C++\2d all\2d.cpp(7) : error C2065: 'DETECT' : undeclared identifier
+D:\2009242009\VISUAL C++\2d all\2d.cpp(10) : error C2065: 'initgraph' : undeclared identifier
+D:\2009242009\VISUAL C++\2d all\2d.cpp(24) : error C2065: 'cleardevice' : undeclared identifier
+D:\2009242009\VISUAL C++\2d all\2d.cpp(25) : error C2065: 'gotoxy' : undeclared identifier
+D:\2009242009\VISUAL C++\2d all\2d.cpp(51) : error C2065: 'line' : undeclared identifier
+D:\2009242009\VISUAL C++\2d all\2d.cpp(97) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\2009242009\VISUAL C++\2d all\2d.cpp(104) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\2009242009\VISUAL C++\2d all\2d.cpp(105) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\2009242009\VISUAL C++\2d all\2d.cpp(301) : error C2065: 'exit' : undeclared identifier
+D:\2009242009\VISUAL C++\2d all\2d.cpp(302) : error C2065: 'closegraph' : undeclared identifier
+D:\2009242009\VISUAL C++\2d all\2d.cpp(303) : error C2065: 'restorecrtmode' : undeclared identifier
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+2d all.exe - 8 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
